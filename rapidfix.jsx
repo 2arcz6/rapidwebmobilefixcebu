@@ -41,7 +41,7 @@ const RapidFixLanding = () => {
           <a href="#services" className="bg-white text-black px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-200 transition-all">
             View Services
           </a>
-          <a href="https://m.me/yourfacebookpage" className="border border-gray-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-800 transition-all flex items-center justify-center gap-2">
+          <a href="https://m.me/61589331937397" className="border border-gray-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-800 transition-all flex items-center justify-center gap-2">
             <MessageSquare className="w-5 h-5" /> Message on Facebook
           </a>
         </div>
