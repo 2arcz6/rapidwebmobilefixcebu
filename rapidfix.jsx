@@ -19,7 +19,7 @@ const RapidFixLanding = () => {
           <div className="w-10 h-10 bg-orange-500 rounded flex items-center justify-center font-bold text-xl">R⚡</div>
           <span className="font-bold text-xl tracking-tight hidden sm:block">RapidFix <span className="text-orange-500">Cebu</span></span>
         </div>
-        <a href="https://m.me/yourfacebookpage" className="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-full font-bold transition-all text-sm">
+        <a href="https://m.me/61589331937397" className="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-full font-bold transition-all text-sm">
           DM NOW
         </a>
       </nav>
