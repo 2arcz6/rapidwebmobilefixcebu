@@ -1,5 +1,5 @@
 import React from 'react';
-import { FastForward, CheckCircle, MessageSquare, Globe, Smartphone, Zap, Code, Layout } from 'lucide-react';
+import { FastForward, CheckCircle, MessageSquare, Globe, Smartphone, Zap, Code, Layout, Award, History, Database, Cpu } from 'lucide-react';
 
 const RapidFixLanding = () => {
   const services = [
@@ -9,6 +9,27 @@ const RapidFixLanding = () => {
     { title: "Mobile App UI", icon: <Smartphone className="w-6 h-6" /> },
     { title: "AWS Deployment", icon: <Zap className="w-6 h-6" /> },
     { title: "Speed Optimization", icon: <FastForward className="w-6 h-6" /> },
+  ];
+
+  const experienceHighlights = [
+    { 
+      year: "2021-Present", 
+      role: "Senior Architecture", 
+      desc: "Leading full-stack architecture for remote teams, focusing on React, Next.js, and Supabase for high-performance systems.",
+      icon: <Cpu className="w-5 h-5 text-orange-500" />
+    },
+    { 
+      year: "2017-2020", 
+      role: "Enterprise & Web3", 
+      desc: "Architected massive data sync systems for Australian companies and pioneered blockchain solutions (ERC20 tokens).",
+      icon: <Database className="w-5 h-5 text-orange-500" />
+    },
+    { 
+      year: "2014-2016", 
+      role: "Foundation Phase", 
+      desc: "Built scalable LAMP-based websites and CMS solutions using PHP, WordPress, and CodeIgniter.",
+      icon: <History className="w-5 h-5 text-orange-500" />
+    }
   ];
 
   return (
@@ -49,12 +70,53 @@ const RapidFixLanding = () => {
 
       {/* Trust Bar */}
       <section className="bg-white/5 border-y border-white/10 py-8 overflow-hidden">
-        <div className="flex justify-around items-center opacity-50 grayscale flex-wrap gap-8 px-6">
-          <span className="font-bold text-xl tracking-widest">REACT</span>
-          <span className="font-bold text-xl tracking-widest">NODE.JS</span>
-          <span className="font-bold text-xl tracking-widest">WORDPRESS</span>
-          <span className="font-bold text-xl tracking-widest">AWS</span>
-          <span className="font-bold text-xl tracking-widest">NEXT.JS</span>
+        <div className="flex justify-around items-center opacity-50 grayscale flex-wrap gap-8 px-6 text-sm font-bold tracking-widest">
+          <span>REACT</span>
+          <span>NODE.JS</span>
+          <span>WORDPRESS</span>
+          <span>AWS</span>
+          <span>NEXT.JS</span>
+          <span>C# .NET</span>
+        </div>
+      </section>
+
+      {/* NEW: 10 Years Experience Section */}
+      <section className="px-6 py-24 max-w-6xl mx-auto bg-white/[0.01] rounded-3xl my-12 border border-white/5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <div className="flex items-center gap-2 text-orange-500 font-bold mb-4">
+              <Award className="w-6 h-6" /> 
+              <span>10 YEARS OF PROFESSIONAL EXPERTISE</span>
+            </div>
+            <h2 className="text-4xl font-bold mb-6 leading-tight">Proven Results from <br/>Cebu to Australia.</h2>
+            <p className="text-gray-400 mb-8 leading-relaxed">
+              I bring a full decade of software engineering experience to your project. From publishing Ethereum tokens and building Australian enterprise systems to leading senior-level architecture today—your business is in expert hands.
+            </p>
+            <div className="flex gap-8">
+              <div>
+                <div className="text-3xl font-bold text-white">25+</div>
+                <div className="text-sm text-gray-500 uppercase tracking-widest">Global Projects</div>
+              </div>
+              <div className="border-l border-white/10 h-12"></div>
+              <div>
+                <div className="text-3xl font-bold text-white">2nd</div>
+                <div className="text-sm text-gray-500 uppercase tracking-widest">Hackathon Rank</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            {experienceHighlights.map((exp, i) => (
+              <div key={i} className="flex gap-4 p-6 rounded-2xl bg-white/[0.03] hover:bg-white/[0.05] transition-colors border border-white/5">
+                <div className="mt-1">{exp.icon}</div>
+                <div>
+                  <div className="text-xs font-bold text-orange-500 uppercase tracking-tighter">{exp.year}</div>
+                  <div className="text-lg font-bold mb-1">{exp.role}</div>
+                  <p className="text-sm text-gray-500">{exp.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -88,7 +150,6 @@ const RapidFixLanding = () => {
               Get a Quote Now
             </a>
           </div>
-          {/* Decorative background element */}
           <div className="absolute -bottom-10 -right-10 text-black/20 font-black text-9xl">RAPID</div>
         </div>
       </section>
