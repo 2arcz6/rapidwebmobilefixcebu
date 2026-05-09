@@ -80,8 +80,59 @@ const RapidFixLanding = () => {
         </div>
       </section>
 
-      {/* NEW: 10 Years Experience Section */}
+      {/* NEW: Global Experience Section */}
       <section className="px-6 py-24 max-w-6xl mx-auto bg-white/[0.01] rounded-3xl my-12 border border-white/5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <div className="flex items-center gap-2 text-orange-500 font-bold mb-4">
+              <Award className="w-6 h-6" /> 
+              <span>A DECADE OF GLOBAL ENGINEERING</span>
+            </div>
+            <h2 className="text-4xl font-bold mb-6 leading-tight">Expert Solutions for <br/>Cebu & The World.</h2>
+            <p className="text-gray-400 mb-8 leading-relaxed">
+              With over 10 years of professional software engineering, I have delivered high-stakes projects for clients in 
+              <strong> Australia, Germany, the US, Canada, Lithuania, and the UK.</strong> From Silicon Valley startups to 
+              European enterprise systems, I bridge the gap between complex technical execution and global business goals[cite: 1, 16, 42, 54].
+            </p>
+            <div className="flex gap-8">
+              <div>
+                <div className="text-3xl font-bold text-white">6+</div>
+                <div className="text-sm text-gray-500 uppercase tracking-widest">Countries Served</div>
+              </div>
+              <div className="border-l border-white/10 h-12"></div>
+              <div>
+                <div className="text-3xl font-bold text-white">10Yrs</div>
+                <div className="text-sm text-gray-500 uppercase tracking-widest">Senior Expertise</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            {/* Global Project Highlight */}
+            <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/5">
+              <div className="text-xs font-bold text-orange-500 uppercase mb-2">Global Remote Leadership [cite: 42, 54]</div>
+              <div className="text-lg font-bold mb-1">International Software Architect</div>
+              <p className="text-sm text-gray-500">
+                Managing and delivering parallel projects for global agencies, specializing in React, Next.js, 
+                and scalable cloud infrastructure across varying time zones and technical requirements[cite: 13, 17, 45, 52].
+              </p>
+            </div>
+            
+            {/* Specific Technical Win */}
+            <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/5">
+              <div className="text-xs font-bold text-orange-500 uppercase mb-2">High-Volume Systems [cite: 12, 71]</div>
+              <div className="text-lg font-bold mb-1">Enterprise Integration & Sync</div>
+              <p className="text-sm text-gray-500 text-balance">
+                Architected massive data synchronization and API integrations for enterprise platforms, 
+                ensuring performance and scalability for high-volume global traffic[cite: 9, 14, 49, 71].
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* NEW: 10 Years Experience Section */}
+      {/* <section className="px-6 py-24 max-w-6xl mx-auto bg-white/[0.01] rounded-3xl my-12 border border-white/5">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <div className="flex items-center gap-2 text-orange-500 font-bold mb-4">
@@ -118,7 +169,7 @@ const RapidFixLanding = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Services Grid */}
       <section id="services" className="px-6 py-24 max-w-6xl mx-auto">
