@@ -30,10 +30,10 @@ const RapidFixLanding = () => {
           Available for Urgent Projects
         </div>
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
-          FAST WEBSITE & <span className="text-orange-500 text-glow">APP SOLUTIONS</span>
+          RAPID WEBSITE & <span className="text-orange-500 text-glow">APP SOLUTIONS</span>
         </h1>
         <p className="text-gray-400 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-          Helping Cebu businesses launch, fix, and improve digital products quickly. 
+          Helping Cebu businesses and Around the World launch Remotely, fix, and improve digital products quickly. 
           Expert React, WordPress, and Mobile development.
         </p>
         
