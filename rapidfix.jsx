@@ -83,7 +83,7 @@ const RapidFixLanding = () => {
         <div className="bg-gradient-to-br from-orange-600 to-orange-800 rounded-3xl p-10 text-center relative overflow-hidden">
           <div className="relative z-10">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Have an Emergency Fix?</h2>
-            <p className="mb-8 text-orange-100 text-lg">WordPress fixes starting at ₱500. Same-day turnaround available.</p>
+            <p className="mb-8 text-orange-100 text-lg">WordPress fixes starting at ₱3000. Same-day turnaround available.</p>
             <a href="https://m.me/yourfacebookpage" className="bg-black text-white px-10 py-4 rounded-full font-bold text-xl hover:scale-105 transition-transform inline-block">
               Get a Quote Now
             </a>
