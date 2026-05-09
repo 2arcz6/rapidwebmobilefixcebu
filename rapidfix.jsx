@@ -108,7 +108,7 @@ const RapidFixLanding = () => {
           </div>
 
           <div className="space-y-6">
-            {/* Global Project Highlight */}
+          
             <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/5">
               <div className="text-xs font-bold text-orange-500 uppercase mb-2">Global Remote Leadership [cite: 42, 54]</div>
               <div className="text-lg font-bold mb-1">International Software Architect</div>
@@ -118,7 +118,7 @@ const RapidFixLanding = () => {
               </p>
             </div>
             
-            {/* Specific Technical Win */}
+     
             <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/5">
               <div className="text-xs font-bold text-orange-500 uppercase mb-2">High-Volume Systems [cite: 12, 71]</div>
               <div className="text-lg font-bold mb-1">Enterprise Integration & Sync</div>
