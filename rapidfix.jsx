@@ -81,7 +81,7 @@ const RapidFixLanding = () => {
       </section>
 
       {/* NEW: Global Experience Section */}
-      <section className="px-6 py-24 max-w-6xl mx-auto bg-white/[0.01] rounded-3xl my-12 border border-white/5">
+      {/* <section className="px-6 py-24 max-w-6xl mx-auto bg-white/[0.01] rounded-3xl my-12 border border-white/5">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <div className="flex items-center gap-2 text-orange-500 font-bold mb-4">
@@ -129,20 +129,32 @@ const RapidFixLanding = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* NEW: 10 Years Experience Section */}
-      {/* <section className="px-6 py-24 max-w-6xl mx-auto bg-white/[0.01] rounded-3xl my-12 border border-white/5">
+      <section className="px-6 py-24 max-w-6xl mx-auto bg-white/[0.01] rounded-3xl my-12 border border-white/5">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <div className="flex items-center gap-2 text-orange-500 font-bold mb-4">
+            {/* <div className="flex items-center gap-2 text-orange-500 font-bold mb-4">
               <Award className="w-6 h-6" /> 
               <span>10 YEARS OF PROFESSIONAL EXPERTISE</span>
             </div>
             <h2 className="text-4xl font-bold mb-6 leading-tight">Proven Results from <br/>Cebu to Australia.</h2>
             <p className="text-gray-400 mb-8 leading-relaxed">
               I bring a full decade of software engineering experience to your project. From publishing Ethereum tokens and building Australian enterprise systems to leading senior-level architecture today—your business is in expert hands.
+            </p> */}
+
+            <div className="flex items-center gap-2 text-orange-500 font-bold mb-4">
+              <Award className="w-6 h-6" /> 
+              <span>A DECADE OF GLOBAL ENGINEERING</span>
+            </div>
+            <h2 className="text-4xl font-bold mb-6 leading-tight">Expert Solutions for <br/>Cebu & The World.</h2>
+            <p className="text-gray-400 mb-8 leading-relaxed">
+              With over 10 years of professional software engineering, I have delivered high-stakes projects for clients in 
+              <strong> Australia, Germany, the US, Canada, Lithuania, and the UK.</strong> From Silicon Valley startups to 
+              European enterprise systems, I bridge the gap between complex technical execution and global business goals.
             </p>
+
             <div className="flex gap-8">
               <div>
                 <div className="text-3xl font-bold text-white">25+</div>
@@ -169,7 +181,7 @@ const RapidFixLanding = () => {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Services Grid */}
       <section id="services" className="px-6 py-24 max-w-6xl mx-auto">
